@@ -1,59 +1,70 @@
-Ficheiros e pastas gerados pelo sistema operativo
-.DS_Store
-Thumbs.db
-
-Ficheiros de log
-.log
-npm-debug.log
+# ================================
+# Logs
+# ================================
+logs
+*.log
+npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
 lerna-debug.log*
 
-Ficheiros de configuração de IDEs e editores
-.vscode/
+# ================================
+# Dependências / Builds
+# ================================
+node_modules/
+dist/
+dist-ssr/
+*.local
+.output/
+
+# ================================
+# Editor directories and files
+# ================================
+.vscode/*
+!.vscode/extensions.json
 .idea/
+.DS_Store
+Thumbs.db
 *.suo
-.ntvs
+*.ntvs*
 *.njsproj
 *.sln
 *.sw?
 
---- Secção para o Back-end (Python/FastAPI) ---
-Ambientes virtuais
+# ================================
+# Back-end (Python / FastAPI)
+# ================================
+# Ambientes virtuais
 **/venv/
 
-Cache do Python
-**/pycache/
+# Cache do Python
+**/__pycache__/
 *.py[cod]
 *$py.class
 
-Ficheiros de ambiente (contêm senhas e chaves de API)
+# Caches de ferramentas
+.mypy_cache/
+.ruff_cache/
+
+# Arquivos de ambiente (segredos)
 .env
 .env.*
 !.env.example
 
-Relatórios de testes e cobertura
+# Relatórios de testes/cobertura
 .pytest_cache/
 .coverage
 htmlcov/
 
---- Secção para o Front-end (Node.js/React/Vite) ---
-Pasta de dependências (geralmente muito grande)
-node_modules/
+# Bases de dados locais (se forem só para dev)
+*.db
+*.sqlite3
 
-Pasta de build/produção
-dist/
-build/
-.output/
-
-Ficheiros de ambiente
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-Ficheiros de cache e temporários do Vite
+# ================================
+# Front-end (extra)
+# ================================
 .vite/
 .next/
-.cache/
-.tmp/
+.turbo/
+coverage/
