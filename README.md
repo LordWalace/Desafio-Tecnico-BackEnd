@@ -107,16 +107,16 @@ npm run dev
 
 ## 4. Observações/Avisos
 
-###Ambiente virtual
+### Ambiente virtual
 Crie o ambiente virtual **na raiz do projeto** e utilize-o apenas para instalar as dependências do **backend**.
 
-###Execução do backend
+### Execução do backend
 O backend precisa estar em execução para que o frontend consiga se comunicar corretamente com a API.
 
-###Senhas de autenticação
+### Senhas de autenticação
 As senhas devem conter **até 72 caracteres**.  
 
-###Backend
+### Backend
 Após iniciar o backend ele estará disponível em:
 O backend (API) estará disponível em:  
 [http://localhost:8000](http://localhost:8000)  
@@ -124,7 +124,7 @@ O backend (API) estará disponível em:
 A documentação interativa da API pode ser acessada em:  
 [http://localhost:8000/docs](http://localhost:8000/docs)
 
-###Frontend
+### Frontend
 O frontend não possui variáveis de ambiente — basta instalar as dependências e rodar o projeto.
 Após iniciar o frontend ele estará disponível em:  
 [http://localhost:5173](http://localhost:5173)
