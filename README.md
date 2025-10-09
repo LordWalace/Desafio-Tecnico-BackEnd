@@ -11,7 +11,7 @@ A aplicação consiste em:
 * **Backend (API)**: Sistema para gestão de empresas clientes com operações CRUD completas
 * **Frontend (Interface Web)**: Painel interativo para visualização e gerenciamento dos dados
 
-Desenvolvido com **FastAPI** no backend e **React.js** no frontend, o projeto demonstra a implementação de uma arquitetura moderna e escalável para gestão de informações empresariais.
+#### Desenvolvido com **FastAPI** no backend e **React.js** no frontend, o projeto demonstra a implementação de uma arquitetura moderna e escalável para gestão de informações empresariais.
 ---
 
 ## 🚀 Tecnologias Utilizadas
