@@ -4,9 +4,14 @@
   <img src="https://imgur.com/8DjSWjX.png" alt="Logo EcompJr" width="200px">
 </div>
 
-Este projeto é uma solução **full-stack** desenvolvida como parte do **Desafio Técnico - Processo Seletivo 2025.2 da Ecomp Jr.**  
-Ele consiste numa **API RESTful** para gestão de empresas clientes e numa **interface de front-end** para interagir com a API.
+Este projeto é uma solução **Full-Stack** desenvolvida como parte do **Desafio Técnico - Processo Seletivo 2025.2 da Ecomp Jr.**
 
+A aplicação consiste em:
+
+* **Backend (API)**: Sistema para gestão de empresas clientes com operações CRUD completas
+* **Frontend (Interface Web)**: Painel interativo para visualização e gerenciamento dos dados
+
+Desenvolvido com **FastAPI** no backend e **React.js** no frontend, o projeto demonstra a implementação de uma arquitetura moderna e escalável para gestão de informações empresariais.
 ---
 
 ## 🚀 Tecnologias Utilizadas
@@ -100,14 +105,26 @@ npm install
 npm run dev
 ```
 
-## 4. Observações
-- Crie o ambiente virtual na raiz do projeto e utilize-o para instalar as dependências do backend.
-- O backend deve estar rodando para o frontend se comunicar normalmente com a API.
-- Senhas para autenticação devem ter até 72 caracteres.
-- O frontend não possui variáveis de ambiente — basta instalar as dependências e rodar.
+## 4. Observações/Avisos
 
--O frontend estará disponível em:  
-http://localhost:5173
+###Ambiente virtual
+Crie o ambiente virtual **na raiz do projeto** e utilize-o apenas para instalar as dependências do **backend**.
 
--A API estará disponível em:
-http://localhost:8000. Você pode acessar a documentação da API em http://localhost:8000/docs.
+###Execução do backend
+O backend precisa estar em execução para que o frontend consiga se comunicar corretamente com a API.
+
+###Senhas de autenticação
+As senhas devem conter **até 72 caracteres**.  
+
+###Backend
+Após iniciar o backend ele estará disponível em:
+O backend (API) estará disponível em:  
+[http://localhost:8000](http://localhost:8000)  
+
+A documentação interativa da API pode ser acessada em:  
+[http://localhost:8000/docs](http://localhost:8000/docs)
+
+###Frontend
+O frontend não possui variáveis de ambiente — basta instalar as dependências e rodar o projeto.
+Após iniciar o frontend ele estará disponível em:  
+[http://localhost:5173](http://localhost:5173)
