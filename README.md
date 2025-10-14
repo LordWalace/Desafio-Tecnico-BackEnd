@@ -181,7 +181,7 @@ npm run dev
 
   - Resposta de Sucesso (204 No Content): A resposta não tem conteúdo, a indicar que a exclusão foi bem-sucedida.
 
-# 5. Observações / Avisos
+## 5. Observações / Avisos
 
 ### Ambiente virtual
 - Crie o ambiente virtual **na raiz do projeto**.  
