@@ -13,8 +13,8 @@ A aplicação foi criada com foco em **boas práticas de desenvolvimento**, **ar
 
 A aplicação consiste em dois módulos principais:
 
-- ** Backend (API):** Sistema de gestão de empresas clientes com operações **CRUD completas**, autenticação via **JWT** e persistência de dados em **PostgreSQL**.  
-- ** Frontend (Interface Web):** Painel interativo desenvolvido com **React.js**, **Vite** e **Tailwind CSS**, permitindo a visualização, filtragem e gerenciamento de dados de forma prática e intuitiva.
+- **Backend (API):** Sistema de gestão de empresas clientes com operações **CRUD completas**, autenticação via **JWT** e persistência de dados em **PostgreSQL**.  
+- **Frontend (Interface Web):** Painel interativo desenvolvido com **React.js**, **Vite** e **Tailwind CSS**, permitindo a visualização, filtragem e gerenciamento de dados de forma prática e intuitiva.
 
 ---
 
