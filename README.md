@@ -4,17 +4,38 @@
   <img src="https://imgur.com/8DjSWjX.png" alt="Logo EcompJr" width="200px">
 </div>
 
-Este projeto é uma solução **Full-Stack** desenvolvida como parte do **Desafio Técnico - Processo Seletivo 2025.2 da Ecomp Jr.**
+Este projeto é uma solução **Full-Stack** desenvolvida como parte do **Desafio Técnico - Processo Seletivo 2025.2 da Ecomp Jr.**, para a trilha **Back-End**.  
+A aplicação foi criada com foco em **boas práticas de desenvolvimento**, **arquitetura escalável** e **integração eficiente entre backend e frontend**.
 
-A aplicação consiste em:
-
-* **Backend (API)**: Sistema para gestão de empresas clientes com operações CRUD completas
-* **Frontend (Interface Web)**: Painel interativo para visualização e gerenciamento dos dados
-
-#### Desenvolvido com **FastAPI** no backend e **React.js** no frontend, o projeto demonstra a implementação de uma arquitetura moderna e escalável para gestão de informações empresariais.
 ---
 
-## 🚀 Tecnologias Utilizadas
+## Visão Geral
+
+A aplicação consiste em dois módulos principais:
+
+- **🛠️ Backend (API):** Sistema de gestão de empresas clientes com operações **CRUD completas**, autenticação via **JWT** e persistência de dados em **PostgreSQL**.  
+- **💻 Frontend (Interface Web):** Painel interativo desenvolvido com **React.js**, **Vite** e **Tailwind CSS**, permitindo a visualização, filtragem e gerenciamento de dados de forma prática e intuitiva.
+
+---
+
+## Funcionalidades
+
+### Back-end (API)
+- Sistema de autenticação de administradores com **tokens JWT**.  
+- Operações **CRUD** (Criar, Ler, Atualizar, Excluir) completas para a gestão de **empresas clientes**.  
+- Sistema de consulta avançada com filtros por **cidade**, **ramo de atuação** e **busca por nome**.  
+- Validação de dados e tratamento de erros com **respostas HTTP apropriadas**.  
+- Configuração de segurança usando **variáveis de ambiente** para proteger dados sensíveis.
+
+### Front-end (Interface)
+- Interface reativa para **login e logout** de administradores.  
+- Painel de controle para **visualizar, filtrar e pesquisar** empresas.  
+- **Formulários em modal** para adicionar e editar empresas de forma intuitiva.  
+- **Confirmação de exclusão** para evitar a perda acidental de dados.
+
+---
+
+## Tecnologias Utilizadas
 
 Este projeto é um **monorepo** dividido em duas partes principais: **backend** e **frontend**.
 
@@ -34,7 +55,7 @@ Este projeto é um **monorepo** dividido em duas partes principais: **backend** 
 
 ---
 
-## 📋 Pré-requisitos
+## Pré-requisitos
 
 Antes de começar, certifique-se de que tem os seguintes programas instalados na sua máquina:
 
